@@ -1,0 +1,8 @@
+seed: 20260902
+bar_width_s: 60                 # base bar width for bar-mode strategies
+signal_at: close                # signals are evaluated at bar CLOSE (ts_close); earliest execution = next bar
+execution_lag_bars: 1           # market orders fill at open of bar i+1 when the signal is at close of bar i
+intrabar_resolution: auto       # 'auto' = use tick sequence when trades data exist for the instrument, else conservative rule
+position_mode: one_at_a_time
+max_trades_per_day: null
+sizing: {mode: fixed_contracts, contracts: 1}   # modes: fixed_contracts | fixed_dollar_risk | pct_account_risk

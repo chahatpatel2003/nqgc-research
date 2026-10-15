@@ -1,0 +1,55 @@
+{
+ "strategy_name": "NQ_ROD_last30",
+ "version": "1.0-paper",
+ "instrument": "NQ",
+ "timeframe_s": 0,
+ "rules": "STRATEGY C \u2014 NQ rest-of-day -> last-30-minute momentum (Baltussen, Da, Lammers, Martens, JFE 2021).\nMarket window 09:30-16:00 ET (paper Table 1: NQ 9:30-16:00 EST). previous_close = last print at/before 16:00:00 ET on the\nprevious trade date for TODAY's front contract (roll days: targeted raw query for the new front). r_ROD = P(15:30)/prev_close - 1\nwhere P(15:30) = last print at/before 15:30:00 ET (known at the boundary). Signal at the 15:30:00 boundary; entry at the first\nprint strictly after it (+ slippage); exit at the last print at/before 16:00:00 ET (- slippage). Long if r_ROD>0, short if <0,\nnone if 0. One trade/day, no stop, no target, no filters. Early-close days (no 16:00 ET window) excluded.",
+ "parameters": {
+  "window": "09:30-16:00 ET",
+  "rod_end": "15:30 ET",
+  "exit": "16:00 ET",
+  "threshold": 0.0
+ },
+ "dataset_split": {
+  "development": {
+   "window": [
+    "2021-01-04",
+    "2023-12-31"
+   ],
+   "locked": false,
+   "label": "development / in-sample"
+  },
+  "validation1": {
+   "window": [
+    "2024-01-01",
+    "2024-12-31"
+   ],
+   "locked": false,
+   "label": "validation-1"
+  },
+  "validation2": {
+   "window": [
+    "2025-01-01",
+    "2026-06-17"
+   ],
+   "locked": false,
+   "label": "validation-2 / recent OOS (previously viewed by other projects; MBP-1 ends 2025-06-30; 2026-06-17 partial session excluded)"
+  },
+  "holdout": {
+   "window": [
+    "2026-06-18",
+    "2026-08-14"
+   ],
+   "locked": true,
+   "label": "TRUE FINAL VIRGIN HOLDOUT \u2014 never observed by any study; LOCKED"
+  }
+ },
+ "hypothesis_id": "H-C",
+ "entry_type": "market",
+ "exit_rules": "",
+ "date_frozen": "2026-09-02T22:42:35+00:00",
+ "code_hash": "e1ec18fb8067a409",
+ "strategy_file_hash": "a8e9a7e4bf6ef2fc",
+ "spec_id": "beedd6558186",
+ "notes": ""
+}

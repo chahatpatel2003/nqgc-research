@@ -1,0 +1,68 @@
+{
+ "strategy_name": "R4_tapandgo",
+ "version": "1.0-frozen-nqlevels",
+ "instrument": "NQ",
+ "timeframe_s": 1,
+ "rules": "STRATEGY A \u2014 R4 'tap-and-go' (frozen nq-levels R4v10 continuation), replayed through the new tick engine.\n\nSignal stream = the FROZEN fire dataset (/Volumes/T9/nq data/nq_levels/daily/p14_fire.parquet, sha256 verified against\nHOLDOUT_FREEZE_MANIFEST.json; 299/299 sampled fires reproduced from raw ticks). Rules ported verbatim:\n  * resistance-role taps only (approach from below), tap_no <= 3, n_fwd >= 1800 s, zone lifecycle per frozen zones.py/interactions.py\n  * R4v10: first second f <= t+60 whose LOW is >= 10.0 pts below the zone's near (lower) edge; decision at the end of second f\n  * entry SHORT at the next executable print after the decision boundary (+k seconds for checkpoint k), slippage per tier\n  * bracket relative to the actual fill: stop = fill + S, target = fill - T; exit at the session end (16:00 CT) otherwise\n  * one open trade at a time (chronological portfolio rule)\nCells: P14 baseline (ck2, S12.5/T30) and the 8 H2 tap<=3 cells (ck0, S in {15,17.5,20,25} x T in {30,40}). No selection is made.\nOLD-engine numbers are recomputed with the frozen evaluator logic on the same fire rows (1-s first-passage grids, flat 1.0 pt RT).\n",
+ "parameters": {
+  "r4_pts": 10.0,
+  "window_s": 60,
+  "tap_max": 3,
+  "n_fwd_min": 1800,
+  "cells": [
+   "P14_ck2_S12.5_T30",
+   "H2_ck0_S15.0_T30",
+   "H2_ck0_S15.0_T40",
+   "H2_ck0_S17.5_T30",
+   "H2_ck0_S17.5_T40",
+   "H2_ck0_S20.0_T30",
+   "H2_ck0_S20.0_T40",
+   "H2_ck0_S25.0_T30",
+   "H2_ck0_S25.0_T40"
+  ],
+  "one_open": true,
+  "exit": "session_end_16:00CT"
+ },
+ "dataset_split": {
+  "development": {
+   "window": [
+    "2021-01-04",
+    "2023-12-31"
+   ],
+   "locked": false,
+   "label": "development / in-sample"
+  },
+  "validation1": {
+   "window": [
+    "2024-01-01",
+    "2024-12-31"
+   ],
+   "locked": false,
+   "label": "validation-1"
+  },
+  "validation2": {
+   "window": [
+    "2025-01-01",
+    "2026-06-17"
+   ],
+   "locked": false,
+   "label": "validation-2 / recent OOS (previously viewed by other projects; MBP-1 ends 2025-06-30; 2026-06-17 partial session excluded)"
+  },
+  "holdout": {
+   "window": [
+    "2026-06-18",
+    "2026-08-14"
+   ],
+   "locked": true,
+   "label": "TRUE FINAL VIRGIN HOLDOUT \u2014 never observed by any study; LOCKED"
+  }
+ },
+ "hypothesis_id": "H-A",
+ "entry_type": "market",
+ "exit_rules": "",
+ "date_frozen": "2026-09-02T22:42:35+00:00",
+ "code_hash": "e1ec18fb8067a409",
+ "strategy_file_hash": "a8e9a7e4bf6ef2fc",
+ "spec_id": "4d603c68e411",
+ "notes": "signal stream = frozen p14_fire.parquet; execution re-done at tick level"
+}

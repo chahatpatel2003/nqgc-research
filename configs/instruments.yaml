@@ -1,0 +1,38 @@
+# Contract specifications. Verify against CME/COMEX contract specs before live use.
+# tick_value = tick_size * point_value (USD per contract).
+NQ:
+  description: E-mini Nasdaq-100
+  exchange: CME
+  tick_size: 0.25
+  point_value: 20.0
+  tick_value: 5.0
+  listed_months: [H, M, U, Z]
+  data_source: nq_trades           # Databento GLBX.MDP3 trades (individual contracts)
+  price_source_symbol_root: NQ     # MNQ backtests use NQ prices (same underlying, verified proxy) unless MNQ data is added
+MNQ:
+  description: Micro E-mini Nasdaq-100
+  exchange: CME
+  tick_size: 0.25
+  point_value: 2.0
+  tick_value: 0.5
+  listed_months: [H, M, U, Z]
+  data_source: nq_trades
+  price_source_symbol_root: NQ
+GC:
+  description: COMEX Gold (100 oz)
+  exchange: COMEX
+  tick_size: 0.1
+  point_value: 100.0
+  tick_value: 10.0
+  listed_months: [G, J, M, Q, V, Z]   # active months; others listed but illiquid
+  data_source: gc_1m_continuous    # Databento GC.v.0 1-minute OHLCV (volume-rolled, unadjusted)
+  price_source_symbol_root: GC
+MGC:
+  description: Micro Gold (10 oz)
+  exchange: COMEX
+  tick_size: 0.1
+  point_value: 10.0
+  tick_value: 1.0
+  listed_months: [G, J, M, Q, V, Z]
+  data_source: gc_1m_continuous
+  price_source_symbol_root: GC

@@ -1,0 +1,30 @@
+# Session definitions. Times are in exchange local time (America/Chicago, CT). DST handled by zoneinfo.
+# These were VERIFIED against the data (see docs/TIMEZONE_SESSIONS.md) — do not edit without re-running the audit.
+exchange_tz: America/Chicago
+trade_date_rule: "CT clock + 7h -> calendar date"   # 17:00 CT open belongs to the NEXT calendar day's trade date
+NQ:
+  globex_open: "17:00"
+  globex_close: "16:00"
+  maintenance: ["16:00", "17:00"]
+  daily_halt: ["15:15", "15:30"]      # VERIFIED IN DATA: present only through 2021-06-25; no prints 15:15-15:29 CT before, prints every day from 2021-06-28
+  daily_halt_last_date: "2021-06-25"
+  rth: ["08:30", "15:00"]             # US cash equity hours in CT
+  sessions:                            # labels used by stats; contiguous, in CT, [start, end)
+    ASIA:   ["17:00", "02:00"]
+    EUROPE: ["02:00", "08:30"]
+    RTH:    ["08:30", "15:00"]
+    POST:   ["15:00", "16:00"]
+GC:
+  globex_open: "17:00"
+  globex_close: "16:00"
+  maintenance: ["16:00", "17:00"]
+  daily_halt: null
+  rth: ["07:20", "12:30"]             # legacy COMEX pit hours; configurable — there is no official 'RTH' for gold
+  sessions:
+    ASIA:   ["17:00", "02:00"]
+    EUROPE: ["02:00", "07:20"]
+    RTH:    ["07:20", "12:30"]
+    POST:   ["12:30", "16:00"]
+# Holidays / early closes are NOT listed here. They are derived from the data by
+# scripts/build_calendar.py into configs/calendar_observed.yaml (per instrument),
+# with manual overrides in configs/calendar_overrides.yaml.

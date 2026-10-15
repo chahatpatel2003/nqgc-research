@@ -1,0 +1,201 @@
+{"ts": "2026-09-02T21:25:25+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "", "pid": 57923}
+{"ts": "2026-09-02T21:25:25+00:00", "phase": "validation", "instrument": "NQ", "spec_id": "abc123", "purpose": "", "pid": 57923}
+{"ts": "2026-09-02T21:25:25+00:00", "phase": "holdout", "instrument": "GC", "spec_id": "abc", "purpose": "unit test", "pid": 57923}
+{"ts": "2026-09-02T21:26:07+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "", "pid": 57975}
+{"ts": "2026-09-02T21:26:07+00:00", "phase": "validation", "instrument": "NQ", "spec_id": "abc123", "purpose": "", "pid": 57975}
+{"ts": "2026-09-02T21:26:07+00:00", "phase": "holdout", "instrument": "GC", "spec_id": "abc", "purpose": "unit test", "pid": 57975}
+{"ts": "2026-09-02T21:27:57+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "", "pid": 58041}
+{"ts": "2026-09-02T21:27:57+00:00", "phase": "validation", "instrument": "NQ", "spec_id": "abc123", "purpose": "", "pid": 58041}
+{"ts": "2026-09-02T21:27:57+00:00", "phase": "holdout", "instrument": "GC", "spec_id": "abc", "purpose": "unit test", "pid": 58041}
+{"ts": "2026-09-02T21:28:28+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "", "pid": 58064}
+{"ts": "2026-09-02T21:28:28+00:00", "phase": "validation", "instrument": "NQ", "spec_id": "abc123", "purpose": "", "pid": 58064}
+{"ts": "2026-09-02T21:28:28+00:00", "phase": "holdout", "instrument": "GC", "spec_id": "abc", "purpose": "unit test", "pid": 58064}
+{"ts": "2026-09-02T21:29:03+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "smoke", "pid": 58087}
+{"ts": "2026-09-02T21:30:19+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "smoke", "pid": 58155}
+{"ts": "2026-09-02T21:31:22+00:00", "phase": "development", "instrument": "GC", "spec_id": null, "purpose": "smoke", "pid": 58155}
+{"ts": "2026-09-02T21:31:59+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "", "pid": 58229}
+{"ts": "2026-09-02T21:31:59+00:00", "phase": "validation", "instrument": "NQ", "spec_id": "abc123", "purpose": "", "pid": 58229}
+{"ts": "2026-09-02T21:31:59+00:00", "phase": "holdout", "instrument": "GC", "spec_id": "abc", "purpose": "unit test", "pid": 58229}
+{"ts": "2026-09-02T21:37:43+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "", "pid": 58393}
+{"ts": "2026-09-02T21:37:43+00:00", "phase": "validation", "instrument": "NQ", "spec_id": "abc123", "purpose": "", "pid": 58393}
+{"ts": "2026-09-02T21:37:43+00:00", "phase": "holdout", "instrument": "GC", "spec_id": "abc", "purpose": "unit test", "pid": 58393}
+{"ts": "2026-09-02T21:37:43+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "run _template.py", "pid": 58395}
+{"ts": "2026-09-02T21:53:11+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "", "pid": 58887}
+{"ts": "2026-09-02T21:53:11+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "abc123", "purpose": "", "pid": 58887}
+{"ts": "2026-09-02T21:53:11+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "abc123", "purpose": "", "pid": 58887}
+{"ts": "2026-09-02T21:53:11+00:00", "phase": "holdout", "instrument": "GC", "spec_id": "abc", "purpose": "unit test", "pid": 58887}
+{"ts": "2026-09-02T21:53:11+00:00", "phase": "infrastructure", "instrument": "NQ", "spec_id": null, "purpose": "unit test", "pid": 58887}
+{"ts": "2026-09-02T22:11:11+00:00", "phase": "infrastructure", "instrument": "NQ", "spec_id": null, "purpose": "build front-contract tick cache for Phase 2 strategies", "pid": 59417}
+{"ts": "2026-09-02T22:22:47+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "verify R4 fires", "pid": 59506}
+{"ts": "2026-09-02T22:22:55+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "verify R4 fires", "pid": 59506}
+{"ts": "2026-09-02T22:23:11+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "verify-r4", "purpose": "verify R4 fires", "pid": 59506}
+{"ts": "2026-09-02T22:41:46+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "", "pid": 60027}
+{"ts": "2026-09-02T22:41:46+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "abc123", "purpose": "", "pid": 60027}
+{"ts": "2026-09-02T22:41:46+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "abc123", "purpose": "", "pid": 60027}
+{"ts": "2026-09-02T22:41:47+00:00", "phase": "holdout", "instrument": "GC", "spec_id": "abc", "purpose": "unit test", "pid": 60027}
+{"ts": "2026-09-02T22:41:47+00:00", "phase": "infrastructure", "instrument": "NQ", "spec_id": null, "purpose": "unit test", "pid": 60027}
+{"ts": "2026-09-02T22:42:35+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "NQ noise area long", "pid": 60047}
+{"ts": "2026-09-02T22:42:35+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "NQ TORB", "pid": 60044}
+{"ts": "2026-09-02T22:42:35+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "NQ ROD momentum", "pid": 60043}
+{"ts": "2026-09-02T22:42:35+00:00", "phase": "development", "instrument": "GC", "spec_id": null, "purpose": "GC ROD momentum", "pid": 60045}
+{"ts": "2026-09-02T22:42:35+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "R4 replay P14_ck2_S12.5_T30", "pid": 60046}
+{"ts": "2026-09-02T22:42:59+00:00", "phase": "validation", "instrument": "GC", "spec_id": "adadcf5c2ff7", "purpose": "GC ROD momentum", "pid": 60045}
+{"ts": "2026-09-02T22:43:45+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "510887251c5f", "purpose": "NQ TORB", "pid": 60044}
+{"ts": "2026-09-02T22:43:48+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "beedd6558186", "purpose": "NQ ROD momentum", "pid": 60043}
+{"ts": "2026-09-02T22:48:34+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "NQ ROD momentum", "pid": 60310}
+{"ts": "2026-09-02T22:48:34+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "NQ TORB", "pid": 60311}
+{"ts": "2026-09-02T22:48:35+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "NQ noise area long", "pid": 60314}
+{"ts": "2026-09-02T22:48:35+00:00", "phase": "development", "instrument": "GC", "spec_id": null, "purpose": "GC ROD momentum", "pid": 60312}
+{"ts": "2026-09-02T22:48:38+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "R4 replay P14_ck2_S12.5_T30", "pid": 60313}
+{"ts": "2026-09-02T22:48:59+00:00", "phase": "validation", "instrument": "GC", "spec_id": "adadcf5c2ff7", "purpose": "GC ROD momentum", "pid": 60312}
+{"ts": "2026-09-02T22:49:11+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "510887251c5f", "purpose": "NQ TORB", "pid": 60311}
+{"ts": "2026-09-02T22:49:20+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "510887251c5f", "purpose": "NQ TORB", "pid": 60311}
+{"ts": "2026-09-02T22:49:21+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "beedd6558186", "purpose": "NQ ROD momentum", "pid": 60310}
+{"ts": "2026-09-02T22:49:32+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "beedd6558186", "purpose": "NQ ROD momentum", "pid": 60310}
+{"ts": "2026-09-02T22:49:44+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "6e4cd01f6961", "purpose": "NQ noise area long", "pid": 60314}
+{"ts": "2026-09-02T22:49:46+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 replay P14_ck2_S12.5_T30", "pid": 60313}
+{"ts": "2026-09-02T22:49:54+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "6e4cd01f6961", "purpose": "NQ noise area long", "pid": 60314}
+{"ts": "2026-09-02T22:49:58+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 replay P14_ck2_S12.5_T30", "pid": 60313}
+{"ts": "2026-09-02T22:50:18+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "R4 replay H2_ck0_S15.0_T30", "pid": 60313}
+{"ts": "2026-09-02T22:50:45+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 replay H2_ck0_S15.0_T30", "pid": 60313}
+{"ts": "2026-09-02T22:50:55+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 replay H2_ck0_S15.0_T30", "pid": 60313}
+{"ts": "2026-09-02T22:50:56+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "R4 decomposition", "pid": 60408}
+{"ts": "2026-09-02T22:50:56+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 decomposition", "pid": 60408}
+{"ts": "2026-09-02T22:50:56+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 decomposition", "pid": 60408}
+{"ts": "2026-09-02T22:51:16+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "R4 replay H2_ck0_S15.0_T40", "pid": 60313}
+{"ts": "2026-09-02T22:51:55+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 replay H2_ck0_S15.0_T40", "pid": 60313}
+{"ts": "2026-09-02T22:52:08+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 replay H2_ck0_S15.0_T40", "pid": 60313}
+{"ts": "2026-09-02T22:52:25+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "R4 replay H2_ck0_S17.5_T30", "pid": 60313}
+{"ts": "2026-09-02T22:52:55+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 replay H2_ck0_S17.5_T30", "pid": 60313}
+{"ts": "2026-09-02T22:53:05+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 replay H2_ck0_S17.5_T30", "pid": 60313}
+{"ts": "2026-09-02T22:53:21+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "R4 replay H2_ck0_S17.5_T40", "pid": 60313}
+{"ts": "2026-09-02T22:53:49+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 replay H2_ck0_S17.5_T40", "pid": 60313}
+{"ts": "2026-09-02T22:53:59+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 replay H2_ck0_S17.5_T40", "pid": 60313}
+{"ts": "2026-09-02T22:54:16+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "R4 replay H2_ck0_S20.0_T30", "pid": 60313}
+{"ts": "2026-09-02T22:54:51+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 replay H2_ck0_S20.0_T30", "pid": 60313}
+{"ts": "2026-09-02T22:55:18+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 replay H2_ck0_S20.0_T30", "pid": 60313}
+{"ts": "2026-09-02T22:55:46+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "R4 replay H2_ck0_S20.0_T40", "pid": 60313}
+{"ts": "2026-09-02T22:56:20+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 replay H2_ck0_S20.0_T40", "pid": 60313}
+{"ts": "2026-09-02T22:56:30+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 replay H2_ck0_S20.0_T40", "pid": 60313}
+{"ts": "2026-09-02T22:56:47+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "R4 replay H2_ck0_S25.0_T30", "pid": 60313}
+{"ts": "2026-09-02T22:57:19+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 replay H2_ck0_S25.0_T30", "pid": 60313}
+{"ts": "2026-09-02T22:57:23+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "R4 causal-fix P14_ck2_S12.5_T30", "pid": 60603}
+{"ts": "2026-09-02T22:57:34+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 replay H2_ck0_S25.0_T30", "pid": 60313}
+{"ts": "2026-09-02T22:57:39+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 causal-fix P14_ck2_S12.5_T30", "pid": 60603}
+{"ts": "2026-09-02T22:57:43+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 causal-fix P14_ck2_S12.5_T30", "pid": 60603}
+{"ts": "2026-09-02T22:57:53+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "R4 causal-fix H2_ck0_S15.0_T30", "pid": 60603}
+{"ts": "2026-09-02T22:58:07+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 causal-fix H2_ck0_S15.0_T30", "pid": 60603}
+{"ts": "2026-09-02T22:58:08+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "R4 replay H2_ck0_S25.0_T40", "pid": 60313}
+{"ts": "2026-09-02T22:58:12+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 causal-fix H2_ck0_S15.0_T30", "pid": 60603}
+{"ts": "2026-09-02T22:58:21+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "R4 causal-fix H2_ck0_S15.0_T40", "pid": 60603}
+{"ts": "2026-09-02T22:58:37+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 causal-fix H2_ck0_S15.0_T40", "pid": 60603}
+{"ts": "2026-09-02T22:58:43+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 causal-fix H2_ck0_S15.0_T40", "pid": 60603}
+{"ts": "2026-09-02T22:59:01+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 replay H2_ck0_S25.0_T40", "pid": 60313}
+{"ts": "2026-09-02T22:59:13+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 replay H2_ck0_S25.0_T40", "pid": 60313}
+{"ts": "2026-09-02T23:03:56+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "R4 causal-fix P14_ck2_S12.5_T30", "pid": 60792}
+{"ts": "2026-09-02T23:04:20+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 causal-fix P14_ck2_S12.5_T30", "pid": 60792}
+{"ts": "2026-09-02T23:04:29+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 causal-fix P14_ck2_S12.5_T30", "pid": 60792}
+{"ts": "2026-09-02T23:04:44+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "R4 causal-fix H2_ck0_S15.0_T30", "pid": 60792}
+{"ts": "2026-09-02T23:05:11+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 causal-fix H2_ck0_S15.0_T30", "pid": 60792}
+{"ts": "2026-09-02T23:05:20+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 causal-fix H2_ck0_S15.0_T30", "pid": 60792}
+{"ts": "2026-09-02T23:05:36+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "R4 causal-fix H2_ck0_S15.0_T40", "pid": 60792}
+{"ts": "2026-09-02T23:06:13+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 causal-fix H2_ck0_S15.0_T40", "pid": 60792}
+{"ts": "2026-09-02T23:06:25+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "4d603c68e411", "purpose": "R4 causal-fix H2_ck0_S15.0_T40", "pid": 60792}
+{"ts": "2026-09-02T23:24:54+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase3 engine validation", "pid": 61288}
+{"ts": "2026-09-02T23:25:17+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase3 engine validation", "pid": 61301}
+{"ts": "2026-09-02T23:25:37+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase3 debug", "pid": 61313}
+{"ts": "2026-09-02T23:25:59+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase3 debug", "pid": 61323}
+{"ts": "2026-09-02T23:26:33+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase3 engine validation", "pid": 61339}
+{"ts": "2026-09-02T23:27:44+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase3 engine validation", "pid": 61367}
+{"ts": "2026-09-02T23:27:47+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "r4 causality tests", "pid": 61374}
+{"ts": "2026-09-02T23:31:15+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "r4 causality tests", "pid": 61476}
+{"ts": "2026-09-02T23:31:41+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "r4 causality tests", "pid": 61491}
+{"ts": "2026-09-02T23:31:55+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase3 engine validation", "pid": 61501}
+{"ts": "2026-09-02T23:32:26+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "r4 causality tests", "pid": 61523}
+{"ts": "2026-09-02T23:33:21+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "r4 causality tests", "pid": 61554}
+{"ts": "2026-09-02T23:33:34+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase3 engine validation", "pid": 61558}
+{"ts": "2026-09-02T23:33:52+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase3 causal R4 level build", "pid": 61562}
+{"ts": "2026-09-02T23:33:52+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "545098a6402a", "purpose": "phase3 causal R4 level build", "pid": 61562}
+{"ts": "2026-09-02T23:33:52+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "545098a6402a", "purpose": "phase3 causal R4 level build", "pid": 61562}
+{"ts": "2026-09-02T23:34:06+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "r4 causality tests", "pid": 61573}
+{"ts": "2026-09-02T23:35:14+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "r4 truncation debug", "pid": 61609}
+{"ts": "2026-09-02T23:35:19+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "r4 causality tests", "pid": 61614}
+{"ts": "2026-09-02T23:35:38+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "r4 causality tests", "pid": 61623}
+{"ts": "2026-09-02T23:36:08+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "r4 truncation debug", "pid": 61639}
+{"ts": "2026-09-02T23:36:31+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "r4 causality tests", "pid": 61649}
+{"ts": "2026-09-02T23:36:44+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase3 causal R4 level build", "pid": 61653}
+{"ts": "2026-09-02T23:36:44+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "545098a6402a", "purpose": "phase3 causal R4 level build", "pid": 61653}
+{"ts": "2026-09-02T23:36:44+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "545098a6402a", "purpose": "phase3 causal R4 level build", "pid": 61653}
+{"ts": "2026-09-02T23:39:51+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "r4 causality tests", "pid": 61724}
+{"ts": "2026-09-02T23:40:04+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase3 causal R4 level build", "pid": 61728}
+{"ts": "2026-09-02T23:40:04+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "545098a6402a", "purpose": "phase3 causal R4 level build", "pid": 61728}
+{"ts": "2026-09-02T23:40:04+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "545098a6402a", "purpose": "phase3 causal R4 level build", "pid": 61728}
+{"ts": "2026-09-02T23:42:16+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase3 R4 execution", "pid": 61768}
+{"ts": "2026-09-02T23:42:16+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "545098a6402a", "purpose": "phase3 R4 execution", "pid": 61768}
+{"ts": "2026-09-02T23:42:16+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "545098a6402a", "purpose": "phase3 R4 execution", "pid": 61768}
+{"ts": "2026-09-02T23:57:06+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "r4 causality tests", "pid": 62112}
+{"ts": "2026-09-03T04:45:06+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "NQ noise area long", "pid": 66094}
+{"ts": "2026-09-03T04:45:40+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "6e4cd01f6961", "purpose": "NQ noise area long", "pid": 66094}
+{"ts": "2026-09-03T04:45:48+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "6e4cd01f6961", "purpose": "NQ noise area long", "pid": 66094}
+{"ts": "2026-09-03T04:46:00+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase4 D", "pid": 66119}
+{"ts": "2026-09-03T04:46:00+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D", "pid": 66119}
+{"ts": "2026-09-03T04:46:00+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D", "pid": 66119}
+{"ts": "2026-09-03T04:46:18+00:00", "phase": "development", "instrument": "GC", "spec_id": null, "purpose": "phase4 F/G", "pid": 66157}
+{"ts": "2026-09-03T04:46:26+00:00", "phase": "validation", "instrument": "GC", "spec_id": "2e3c861cc30c", "purpose": "phase4 F/G", "pid": 66157}
+{"ts": "2026-09-03T04:46:40+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:40+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:40+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:41+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:41+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:41+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:42+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:42+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:42+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:42+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:43+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:43+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:43+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:44+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:44+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:44+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:44+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:45+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:45+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:45+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:45+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:46+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:46+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:46+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:47+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:47+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:47+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:47+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:48+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:48+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:48+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:48+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:49+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:49+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:49+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:49+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:50+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:50+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:50+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:50+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:51+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:51+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:51+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:51+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:46:52+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "456ce5ecf75b", "purpose": "phase4 D eval", "pid": 66119}
+{"ts": "2026-09-03T04:48:41+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase4 aggregate", "pid": 66244}
+{"ts": "2026-09-03T04:48:41+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "agg", "purpose": "phase4 aggregate", "pid": 66244}
+{"ts": "2026-09-03T04:48:41+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "agg", "purpose": "phase4 aggregate", "pid": 66244}
+{"ts": "2026-09-03T04:49:42+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase4 diag", "pid": 66272}
+{"ts": "2026-09-03T04:49:42+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "diag", "purpose": "phase4 diag", "pid": 66272}
+{"ts": "2026-09-03T04:49:42+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "diag", "purpose": "phase4 diag", "pid": 66272}
+{"ts": "2026-09-03T04:51:29+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "r4 causality tests", "pid": 66305}
+{"ts": "2026-09-03T05:55:24+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "phase5 design base rates", "pid": 67400}
+{"ts": "2026-09-03T05:55:24+00:00", "phase": "validation1", "instrument": "NQ", "spec_id": "design", "purpose": "phase5 design base rates", "pid": 67400}
+{"ts": "2026-09-03T05:55:24+00:00", "phase": "validation2", "instrument": "NQ", "spec_id": "design", "purpose": "phase5 design base rates", "pid": 67400}
+{"ts": "2026-09-03T06:26:27+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "smoke test", "pid": 67964}
+{"ts": "2026-09-03T06:26:40+00:00", "phase": "development", "instrument": "NQ", "spec_id": null, "purpose": "E0 daily table / labels (development only)", "pid": 67976}

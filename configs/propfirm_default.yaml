@@ -1,0 +1,15 @@
+# Generic prop-firm evaluation rules. EVERYTHING here is a parameter; nothing is baked into the engine.
+# Replace with the actual firm's current rule sheet when known (rules change often).
+account_size: 50000
+profit_target: 3000
+daily_loss_limit: 1000          # null to disable; measured on realised + unrealised P&L intraday
+daily_loss_limit_basis: intraday   # 'intraday' (mark-to-market incl. open trade) or 'closed'
+trailing_drawdown: 2000
+trailing_drawdown_basis: eod    # 'eod' (trails on end-of-day balance) or 'intraday' (trails on unrealised peak)
+trailing_stops_at_initial_plus: null   # e.g. 100 -> trailing stops once balance high-water reaches account_size + trailing + 100
+max_contracts: {NQ: 5, MNQ: 50, GC: 3, MGC: 30}
+consistency_rule: 0.5           # best day <= 50% of total profit; null to disable
+min_trading_days: 2
+flatten_by: "15:55"             # CT; forced EOD flatten time (must be < globex_close); null to allow holding
+no_trading_window: null         # e.g. ["15:55", "17:00"]
+allowed_instruments: [NQ, MNQ, GC, MGC]

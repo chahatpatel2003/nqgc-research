@@ -1,0 +1,13 @@
+# Research generation 1 — split layout ACCEPTED by the user on 2026-09-02 (Phase 2). Boundaries are CME TRADE DATES.
+# phases marked locked: true require a frozen spec_id AND the unlock phrase; every access is written to runs/HOLDOUT_LEDGER.md.
+generation: 1
+embargo_trading_days: 5
+NQ:
+  development:  {window: ["2021-01-04", "2023-12-31"], locked: false, label: "development / in-sample"}
+  validation1:  {window: ["2024-01-01", "2024-12-31"], locked: false, label: "validation-1"}
+  validation2:  {window: ["2025-01-01", "2026-06-17"], locked: false, label: "validation-2 / recent OOS (previously viewed by other projects; MBP-1 ends 2025-06-30; 2026-06-17 partial session excluded)"}
+  holdout:      {window: ["2026-06-18", "2026-08-14"], locked: true,  label: "TRUE FINAL VIRGIN HOLDOUT — never observed by any study; LOCKED"}
+GC:
+  development:  {window: ["2016-01-04", "2023-12-31"], locked: false, label: "development / in-sample"}
+  validation:   {window: ["2024-01-01", "2024-12-31"], locked: false, label: "validation"}
+  holdout:      {window: ["2025-01-01", "2025-12-31"], locked: true,  label: "NON-VIRGIN / STRATEGY-SPECIFIC HOLDOUT — researcher viewed this period in unrelated research; LOCKED"}

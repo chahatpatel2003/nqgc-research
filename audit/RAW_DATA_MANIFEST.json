@@ -1,0 +1,335 @@
+{
+ "/Volumes/T9/nq data/raw/trades/2021_H1.parquet": {
+  "sha256": "593a6534171c07a5ecb89117ae965538557c16d512ce7e6e87f70065686d3178",
+  "size": 1106822528
+ },
+ "/Volumes/T9/nq data/raw/trades/2021_H2.parquet": {
+  "sha256": "49456f43cb0cc7875404beb80e8cd9aa4873438369f35001d162fbb829b56d72",
+  "size": 1095809070
+ },
+ "/Volumes/T9/nq data/raw/trades/2022_H1.parquet": {
+  "sha256": "b9d05060922a162e141cf16eda8fa6f91e24c435c06c8e646ec7c21780edb533",
+  "size": 1513326861
+ },
+ "/Volumes/T9/nq data/raw/trades/2022_H2.parquet": {
+  "sha256": "39c5e020ca57ef259b5896b152f73c9407844986d2acadf5c04d07e7351d3960",
+  "size": 1433552589
+ },
+ "/Volumes/T9/nq data/raw/trades/2023_H1.parquet": {
+  "sha256": "8e3f517dc079cfc9630ef171872537e8937ccc00aa093dc1504f7afb447c2061",
+  "size": 1305762398
+ },
+ "/Volumes/T9/nq data/raw/trades/2023_H2.parquet": {
+  "sha256": "8d9b0e574808e5c36090d8b3a3d028241030cddd1568202306abf68575d90b09",
+  "size": 1295214885
+ },
+ "/Volumes/T9/nq data/raw/trades/2024_H1.parquet": {
+  "sha256": "2873ee65c463594cc626cff3fe49138f663c56d4e617ab11c332f36677c6b8e8",
+  "size": 1304195721
+ },
+ "/Volumes/T9/nq data/raw/trades/2024_H2.parquet": {
+  "sha256": "9c34684239872222bca311d13421ac406aafec94158b125aa1ff427ba30ac43c",
+  "size": 1229612152
+ },
+ "/Volumes/T9/nq data/raw/trades/2025_H1.parquet": {
+  "sha256": "cdc19bc15ddebb78876a26ff4d38c6564fd96ffd4ddd1c71d357c0e1b9b57ad6",
+  "size": 1319305616
+ },
+ "/Volumes/T9/nq data/raw/trades/2025_H2.parquet": {
+  "sha256": "43e7f1f4f712eaa5b237b7005b2838be5cc9cd2536ba75551cb9815fbfd6aba4",
+  "size": 1141481524
+ },
+ "/Volumes/T9/nq data/raw/trades/2026_H1.parquet": {
+  "sha256": "e265493402c0d64f7f36cd3273184146db3e99b9d66c0a6bd17d7abb9ad840a6",
+  "size": 1171996449
+ },
+ "/Volumes/T9/Gc:Xauusd/gc/gc_2016.parquet": {
+  "sha256": "d15dc597799989abbf36aaf0c8141b6bcb04b50ee242b37d71b721d5b0b39260",
+  "size": 5352241
+ },
+ "/Volumes/T9/Gc:Xauusd/gc/gc_2017.parquet": {
+  "sha256": "85df77f7931b0cee72bf97f65c7e2f2df3cdad0f3846b5771b1d16b8fd80f93d",
+  "size": 5001043
+ },
+ "/Volumes/T9/Gc:Xauusd/gc/gc_2018.parquet": {
+  "sha256": "eabcefa635994b063c725362b53650164f35f94c9b103435cf90c30166f7aa81",
+  "size": 5165922
+ },
+ "/Volumes/T9/Gc:Xauusd/gc/gc_2019.parquet": {
+  "sha256": "e0f10fca75ef2762f385870218cd218645e11014276bb7c13aae4089bbe22cf1",
+  "size": 5109690
+ },
+ "/Volumes/T9/Gc:Xauusd/gc/gc_2020.parquet": {
+  "sha256": "340b569d633dc276194cea4d231a460af56ff20647b0118c90ce654a3b66ca24",
+  "size": 5643054
+ },
+ "/Volumes/T9/Gc:Xauusd/gc/gc_2021.parquet": {
+  "sha256": "8d9726b7bd4dda22e9c21b171e8e7ecaf028aea42e8cfdaaec548a58470b9b85",
+  "size": 5376647
+ },
+ "/Volumes/T9/Gc:Xauusd/gc/gc_2022.parquet": {
+  "sha256": "aacdea543bc2fce73702a323b4333d2309c2a591e08e0681572457c5d73488cb",
+  "size": 5615442
+ },
+ "/Volumes/T9/Gc:Xauusd/gc/gc_2023.parquet": {
+  "sha256": "d8c6f2b584078880ba8c6f2d2c0e01dab344791cafdde182cdf54eb224f24a92",
+  "size": 5352505
+ },
+ "/Volumes/T9/Gc:Xauusd/gc/Holdout/gc_2024.parquet": {
+  "sha256": "5dca299dfdea6b6e916066141f4fee4da9a9ef4b811e747dd0cac4a256207dda",
+  "size": 5681383
+ },
+ "/Volumes/T9/Gc:Xauusd/gc/Holdout/gc_2025.parquet": {
+  "sha256": "d4d637cb7704c1c701793a51a8566b3cceaa528780786665190659855ad338d5",
+  "size": 6140949
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260617.trades.dbn.zst": {
+  "sha256": "106e4a2b046bcc4b9eef2bed4cc2293e262d3aaab6b3554adbbbfeb1d79047ca",
+  "size": 235383
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260618.trades.dbn.zst": {
+  "sha256": "8c2a851a110c0e39f5a01d2772875fd99498b33904271e68b096bb8f234aff7f",
+  "size": 6723252
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260619.trades.dbn.zst": {
+  "sha256": "073bc14add61af0e7a2747c55c8184898d5db82f4547e33e2e90fb5b00c0e264",
+  "size": 1159148
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260621.trades.dbn.zst": {
+  "sha256": "319b5d3a8091b024a4d1256f2e46a2d19cf477932b9d429205fbf3d5bf81cb84",
+  "size": 290294
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260622.trades.dbn.zst": {
+  "sha256": "a4441afa7594d981a858f6ed3413b3845ed76d9ea414cb5dcf342ae7acba31c2",
+  "size": 6221567
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260623.trades.dbn.zst": {
+  "sha256": "ddd9d070b35157fdb5f3f6b4a26a2cbb144d24266d042fe1e3bab29b32b84021",
+  "size": 8757301
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260624.trades.dbn.zst": {
+  "sha256": "9aea191eccd4a028005b6e87c1014fff93bc00d1e039be17bdb2023401c4e9ff",
+  "size": 8192641
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260625.trades.dbn.zst": {
+  "sha256": "6a38d33b6d78878a1f02ac324a77973190cadff1d6bd83440aa29ce0f32bac18",
+  "size": 7922028
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260626.trades.dbn.zst": {
+  "sha256": "b429108c14c6ae0a12ea41a6326269b0c9e2358dd97de32f9c773a1a2e488c17",
+  "size": 6849815
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260628.trades.dbn.zst": {
+  "sha256": "60a7bb8024c47c0c54c5f92e3da2b8baf23a88eb22155fe6952e398e2463e315",
+  "size": 255842
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260629.trades.dbn.zst": {
+  "sha256": "e6af2b97d22109812035c61ef26355bded688fb3ce4b2ee820a08eae526353d7",
+  "size": 6270626
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260630.trades.dbn.zst": {
+  "sha256": "c4e6a186dcb837fafe9e4af21a95710afc46bf95f860562302ba5bceb2d7653a",
+  "size": 5685477
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260701.trades.dbn.zst": {
+  "sha256": "4159e93ccc532f2213950229e18cfa84909c7a3ab183d24445bcd20fdd5bb9d9",
+  "size": 6399043
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260702.trades.dbn.zst": {
+  "sha256": "306a1b249bb0d21ecbbb001b3c97eff975c940ed6c71c738a366f3396df2afe0",
+  "size": 7945909
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260703.trades.dbn.zst": {
+  "sha256": "275891d1c4e56404b1947d71c79ca836d8e5a03488ced549a197cfd52c6138d5",
+  "size": 1008041
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260705.trades.dbn.zst": {
+  "sha256": "da3662321b9693755a51fbaade288c14cec2712ec8de0d58f5a0ab66f0e74b31",
+  "size": 186377
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260706.trades.dbn.zst": {
+  "sha256": "3243aac14c3fabb15fb2740d727954baa9a07633c7dec290ca848aa20b4ee289",
+  "size": 5570252
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260707.trades.dbn.zst": {
+  "sha256": "e359a9f8248895203990be7f4a8f6517d0cc784d759f32758fc898b5099c4652",
+  "size": 6933771
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260708.trades.dbn.zst": {
+  "sha256": "430dabd7598f183002a9ec81cf0611885df54bbe22318f1e785df26048a0fff3",
+  "size": 6733540
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260709.trades.dbn.zst": {
+  "sha256": "89e53f965999569c730840eac3e6e241badf988171eb617fe3f3b478d1b38ea9",
+  "size": 5504283
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260710.trades.dbn.zst": {
+  "sha256": "0803ab98bbc90ce98b9040e8f4f677d092d77960ee295e79faee5b85a00b46e6",
+  "size": 5012768
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260712.trades.dbn.zst": {
+  "sha256": "e0be47f6ab3c59b382ea901ace19912871ad0986fb5c4a16395d02b37f818394",
+  "size": 202082
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260713.trades.dbn.zst": {
+  "sha256": "240e3157b96c3cfcb9343d11d46b53faff99bad214850dc042caf2afe5620651",
+  "size": 6055262
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260714.trades.dbn.zst": {
+  "sha256": "8105dd8e97d26f3020709be8d2e7baec15ee0fab70e3f9d332fee64f50125f4b",
+  "size": 5757734
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260715.trades.dbn.zst": {
+  "sha256": "fd2712f9568e4c8f49893c13c05946d16a78b1a5eba2af8f233bff3899a0b44c",
+  "size": 6000456
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260716.trades.dbn.zst": {
+  "sha256": "2f3ffd5c6c05a7b77a7749dc5913ef7578cd3a8dde21ee4ae4ae064f1053980e",
+  "size": 6010906
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260717.trades.dbn.zst": {
+  "sha256": "79902c846a4038cb8dd36afb2f3282d36f8609a8375b0f32d12621662a478eed",
+  "size": 7678706
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260719.trades.dbn.zst": {
+  "sha256": "8e8fca6e237ecea8e1d15c8e1b3440a70cc20020601d51d888ef975186c421c7",
+  "size": 201996
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260720.trades.dbn.zst": {
+  "sha256": "7e6cd9bf87c63178da8455d6dfb5480e6b2e02034ab31ffa6b710a0c9875754f",
+  "size": 6122546
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260721.trades.dbn.zst": {
+  "sha256": "82e8a0e4b359e0ad725ae22b44305d530d4274be4b4ecb8628df1e3372e65a0c",
+  "size": 5243314
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260722.trades.dbn.zst": {
+  "sha256": "28f6b62ee40185289a19e8f29aba32a35cd742e31fb14fd3de13038ce79b17b2",
+  "size": 5309181
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260723.trades.dbn.zst": {
+  "sha256": "76ac398c3263c981fc0c8ddcb135080bf6b2c9a237ffa36f03b86c8ada5d05db",
+  "size": 7836850
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260724.trades.dbn.zst": {
+  "sha256": "9d0cf8b52f1b65e5808f5ec2bb74e835b7cdb1d4d2ce5ac24223d41c1c1b7901",
+  "size": 6953898
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260726.trades.dbn.zst": {
+  "sha256": "c2e9e483faace5dda3724e956879f493ced084241003a351947410ec84918964",
+  "size": 201301
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260727.trades.dbn.zst": {
+  "sha256": "64762f28bbb22c40a8ce98858fe027ab891d5ce695cba586ad3dc7d9598dd95b",
+  "size": 7215213
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260728.trades.dbn.zst": {
+  "sha256": "987eb6c57c963da1b204d4ab3caeda7cbca604cf7f0fe2f963e08bd9fbbb552a",
+  "size": 8276511
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260729.trades.dbn.zst": {
+  "sha256": "55e162002048a7e07e0535ec233c0a9d2a0cd9c86de78701483b186acd13249d",
+  "size": 10094569
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260730.trades.dbn.zst": {
+  "sha256": "47cf1a4a65f6658d58a3e01910458b3cb588f0ce1719ae3313af4d41f6721595",
+  "size": 8703693
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260731.trades.dbn.zst": {
+  "sha256": "7928169786d7b3dde76ed636a3fd100d9c7da740a256012cead74086a61ec181",
+  "size": 8178153
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260802.trades.dbn.zst": {
+  "sha256": "0c89ad6c94b8a8225a01bb37b81e136a49f0f84791c5f2a14d8c6430c09ae603",
+  "size": 229626
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260803.trades.dbn.zst": {
+  "sha256": "4717e44ddff05bc9ec57547bbfb8aa5fb3f3002525064e7994fec8d434534ce5",
+  "size": 6321695
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260804.trades.dbn.zst": {
+  "sha256": "c5a391bff66cbb9941aab955baad9fab94ff54b9fa4d2a78c840ea6f71172993",
+  "size": 7290887
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260805.trades.dbn.zst": {
+  "sha256": "e7e794d41284194aba3d4bc33977c98e3369f8b0c7db9f8295cabb3008a7b3b9",
+  "size": 6900287
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260806.trades.dbn.zst": {
+  "sha256": "e002f6da36a9ba3a33a7be3e14e51b3674d8a502095c5e6ff5adbabdc0b92ffe",
+  "size": 6892213
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260807.trades.dbn.zst": {
+  "sha256": "3dab15249027bdd8920cc22f69b0fd2e746b1b4e808b479889a7d73c34cf67de",
+  "size": 6432891
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260809.trades.dbn.zst": {
+  "sha256": "7c231f59e2ad200ecec6348082228cecac2ca14fd2b1aa222e9ffa77c7783e7a",
+  "size": 155760
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260810.trades.dbn.zst": {
+  "sha256": "3ab772511a42464dcbc76a6729a53d9ed6796971df6e366a4ccaf44586390c2d",
+  "size": 4760567
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260811.trades.dbn.zst": {
+  "sha256": "7d544a26ddfd6e822ca74cca7f975dccad6ee24c0a03515fa608b51ad9db1762",
+  "size": 5159988
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260812.trades.dbn.zst": {
+  "sha256": "76de68981dbf6e68126c40a1f18ec91788c14121ae35824e61b8df91ec369cf3",
+  "size": 4816969
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260813.trades.dbn.zst": {
+  "sha256": "3b9593606fdff2d4d45a573b0014a55e253424f5cff1fd987f32c310b78b979e",
+  "size": 5268837
+ },
+ "/Volumes/T9/nq data/NQ_HOLDOUT/GLBX-20260815-69WTYRKTDB/glbx-mdp3-20260814.trades.dbn.zst": {
+  "sha256": "c1ab01cf8ee5506a5abc4e7e6cbc9972aa90edd705bcdc6c9a7ae5f67e7b8d8f",
+  "size": 4568432
+ },
+ "/Volumes/T9/nq data/raw/mbp1/2021_H1.parquet": {
+  "sha256": null,
+  "size": 18623606865,
+  "mtime": 1781701860
+ },
+ "/Volumes/T9/nq data/raw/mbp1/2021_H2.parquet": {
+  "sha256": null,
+  "size": 19809165365,
+  "mtime": 1781707076
+ },
+ "/Volumes/T9/nq data/raw/mbp1/2022_H1.parquet": {
+  "sha256": null,
+  "size": 27081974141,
+  "mtime": 1781713192
+ },
+ "/Volumes/T9/nq data/raw/mbp1/2022_H2.parquet": {
+  "sha256": null,
+  "size": 23611473537,
+  "mtime": 1781718542
+ },
+ "/Volumes/T9/nq data/raw/mbp1/2023_H1.parquet": {
+  "sha256": null,
+  "size": 21865069299,
+  "mtime": 1781724282
+ },
+ "/Volumes/T9/nq data/raw/mbp1/2023_H2.parquet": {
+  "sha256": null,
+  "size": 24346223113,
+  "mtime": 1781730350
+ },
+ "/Volumes/T9/nq data/raw/mbp1/2024_H1.parquet": {
+  "sha256": null,
+  "size": 24400970262,
+  "mtime": 1781735718
+ },
+ "/Volumes/T9/nq data/raw/mbp1/2024_H2.parquet": {
+  "sha256": null,
+  "size": 27120421538,
+  "mtime": 1781741370
+ },
+ "/Volumes/T9/nq data/raw/mbp1/2025_H1.parquet": {
+  "sha256": null,
+  "size": 35273318808,
+  "mtime": 1781749066
+ }
+}

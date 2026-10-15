@@ -1,0 +1,53 @@
+{
+ "strategy_name": "NQ_TORB_1min",
+ "version": "1.0-paper",
+ "instrument": "NQ",
+ "timeframe_s": 0,
+ "rules": "STRATEGY E \u2014 NQ 1-minute TORB (Tsai et al., IEEE Access 2019; rules as specified for this task).\nOpening range = prints with 09:30:00 <= ts < 09:31:00 ET on the front contract: OR_HIGH = max, OR_LOW = min.\nAfter 09:31:00 ET the first print strictly ABOVE OR_HIGH -> long signal; strictly BELOW OR_LOW -> short; whichever first.\nSignal time = that print's ts_event; entry at the next print strictly after (+ slippage). Exit at the last print at/before\n16:00:00 ET (- slippage). One trade/day. No stop, target, or filters. Early-close days excluded.",
+ "parameters": {
+  "or_window": "09:30:00-09:31:00 ET",
+  "exit": "16:00 ET"
+ },
+ "dataset_split": {
+  "development": {
+   "window": [
+    "2021-01-04",
+    "2023-12-31"
+   ],
+   "locked": false,
+   "label": "development / in-sample"
+  },
+  "validation1": {
+   "window": [
+    "2024-01-01",
+    "2024-12-31"
+   ],
+   "locked": false,
+   "label": "validation-1"
+  },
+  "validation2": {
+   "window": [
+    "2025-01-01",
+    "2026-06-17"
+   ],
+   "locked": false,
+   "label": "validation-2 / recent OOS (previously viewed by other projects; MBP-1 ends 2025-06-30; 2026-06-17 partial session excluded)"
+  },
+  "holdout": {
+   "window": [
+    "2026-06-18",
+    "2026-08-14"
+   ],
+   "locked": true,
+   "label": "TRUE FINAL VIRGIN HOLDOUT \u2014 never observed by any study; LOCKED"
+  }
+ },
+ "hypothesis_id": "H-E",
+ "entry_type": "market",
+ "exit_rules": "",
+ "date_frozen": "2026-09-02T22:42:35+00:00",
+ "code_hash": "e1ec18fb8067a409",
+ "strategy_file_hash": "a8e9a7e4bf6ef2fc",
+ "spec_id": "510887251c5f",
+ "notes": ""
+}

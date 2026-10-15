@@ -1,0 +1,79 @@
+{
+ "strategy_name": "R4_causal",
+ "version": "3.0",
+ "instrument": "NQ",
+ "timeframe_s": 1,
+ "rules": "Causal rebuild of the nq-levels R4 level engine from raw front-contract prints.\n\nFaithful to the frozen methodology (zones.py / interactions.py / p14_common.py of nq-levels) EXCEPT for the one\nchronology fix: a zone becomes available only when the bar that confirms its pivot has COMPLETED.\n\nEvery zone carries pivot_ts (open of the pivot minute), confirm_ts (open of the confirmation minute) and\navailable_ts = confirm_ts + 60 s. No tap may occur at a second earlier than available_ts. Every tap is known at\ntap_sec + 1 s; every R4 fire is decided at the end of the fire second (decision_ts = fire_sec + 1 s).\n\nThe engine is strictly online: `process_session(sd, ...)` only ever reads prefix data, so running it on prints\ntruncated at T reproduces exactly the zones/taps/fires whose availability/known time is <= T (tests/test_r4_causal.py).\n",
+ "parameters": {
+  "scales": [
+   0.15,
+   0.35,
+   0.75
+  ],
+  "base_min": 10,
+  "hw_floor": 1.0,
+  "hw_cap_atr": 0.03,
+  "rearm_s": 900,
+  "hyst_pts": 2.0,
+  "max_taps": 6,
+  "max_age_sessions": 30,
+  "r4_win": 60,
+  "displacements": [
+   8.0,
+   9.0,
+   10.0,
+   11.0,
+   12.0
+  ],
+  "n_fwd_min": 1800,
+  "atr_n": 14,
+  "atr_min": 5,
+  "dedup": true,
+  "dedup_s": 600,
+  "dedup_atr": 0.05,
+  "t0_s": 900,
+  "t0_filter": true
+ },
+ "dataset_split": {
+  "development": {
+   "window": [
+    "2021-01-04",
+    "2023-12-31"
+   ],
+   "locked": false,
+   "label": "development / in-sample"
+  },
+  "validation1": {
+   "window": [
+    "2024-01-01",
+    "2024-12-31"
+   ],
+   "locked": false,
+   "label": "validation-1"
+  },
+  "validation2": {
+   "window": [
+    "2025-01-01",
+    "2026-06-17"
+   ],
+   "locked": false,
+   "label": "validation-2 / recent OOS (previously viewed by other projects; MBP-1 ends 2025-06-30; 2026-06-17 partial session excluded)"
+  },
+  "holdout": {
+   "window": [
+    "2026-06-18",
+    "2026-08-14"
+   ],
+   "locked": true,
+   "label": "TRUE FINAL VIRGIN HOLDOUT \u2014 never observed by any study; LOCKED"
+  }
+ },
+ "hypothesis_id": "H-A3",
+ "entry_type": "market",
+ "exit_rules": "",
+ "date_frozen": "2026-09-02T23:33:52+00:00",
+ "code_hash": "0d168d28e1a76ebe",
+ "strategy_file_hash": "caaad48a2939206d",
+ "spec_id": "545098a6402a",
+ "notes": "causal rebuild; zone available only after the confirmation bar completes; causal roll spread; causal first-in-time dedup"
+}

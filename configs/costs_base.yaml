@@ -1,0 +1,24 @@
+# COST TIER 2 — BASE: fees $2.40/side NQ ($4.80 RT = 0.24 pt) + 1 tick slippage per side on market/stop fills (NQ 0.25 pt/side => 0.74 pt RT all-in); GC fees $2.57/side + 1 tick/side ($0.10) => $25.14 RT.
+# Values are USD per contract per SIDE. Round trip = 2 sides.
+# Every run records the cost config it used; nothing here is hardcoded in the engine.
+per_side:
+  NQ:  {commission: 0.85, exchange_fee: 1.38, clearing_fee: 0.15, nfa_fee: 0.02}
+  MNQ: {commission: 0.35, exchange_fee: 0.35, clearing_fee: 0.02, nfa_fee: 0.02}
+  GC:  {commission: 0.85, exchange_fee: 1.55, clearing_fee: 0.15, nfa_fee: 0.02}
+  MGC: {commission: 0.35, exchange_fee: 0.50, clearing_fee: 0.02, nfa_fee: 0.02}
+# Slippage model, in TICKS per side, applied on top of the modelled fill price.
+# market: paid on every market fill. stop: paid when a stop is triggered (market on trigger).
+# limit: zero by default (limit fills are price-improving by construction, but see limit_fill_rule).
+slippage_ticks:
+  NQ:  {market: 1, stop: 1, limit: 0}
+  MNQ: {market: 1, stop: 1, limit: 0}
+  GC:  {market: 1, stop: 1, limit: 0}
+  MGC: {market: 1, stop: 1, limit: 0}
+# limit_fill_rule: 'through' = price must trade strictly beyond the limit by >= 1 tick (queue-conservative)
+#                  'touch'   = fill when the limit price is touched (optimistic; only for sensitivity analysis)
+limit_fill_rule: through
+# When a stop and a target are both touched within one bar and no tick sequence is available:
+#   'worst'      = assume the stop was hit first (loss). DEFAULT.
+#   'ambiguous'  = record the trade as ambiguous with NaN P&L and exclude it (reported separately).
+# 'best' is deliberately NOT offered.
+intrabar_ambiguity: worst

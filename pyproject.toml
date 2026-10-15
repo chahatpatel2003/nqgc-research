@@ -1,0 +1,11 @@
+[project]
+name = "nqgc"
+version = "0.1.0"
+description = "Leak-safe NQ/GC futures research framework (data audit + deterministic backtester)"
+requires-python = ">=3.12"
+dependencies = ["polars", "pyarrow", "duckdb", "numpy", "pandas", "pyyaml", "databento-dbn", "zstandard", "pytz", "tzdata", "pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"

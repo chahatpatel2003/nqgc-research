@@ -1,0 +1,37 @@
+{
+ "spec_id": "545098a6402a",
+ "variants": {
+  "base": {},
+  "nodedup": {
+   "dedup": false
+  },
+  "thr_x0.8": {
+   "scales": [
+    0.12,
+    0.28,
+    0.6
+   ]
+  },
+  "thr_x1.2": {
+   "scales": [
+    0.18,
+    0.42,
+    0.9
+   ]
+  },
+  "hyst_x0.5": {
+   "hyst_mult": 0.5
+  },
+  "hyst_x1.5": {
+   "hyst_mult": 1.5
+  },
+  "rearm_600": {
+   "rearm_s": 600
+  },
+  "rearm_1200": {
+   "rearm_s": 1200
+  }
+ },
+ "n_sessions": 1408,
+ "secs": 131.68458914756775
+}

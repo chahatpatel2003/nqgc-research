@@ -1,0 +1,56 @@
+{
+ "strategy_name": "NQ_NoiseArea_long",
+ "version": "1.0-paper",
+ "instrument": "NQ",
+ "timeframe_s": 60,
+ "rules": "STRATEGY F \u2014 Noise-Area intraday momentum, LONG ONLY (Zarattini, Aziz, Barbon 2024, 'Beat the Market', SSRN 4824172).\nEquations recovered from the paper text (audit/zarattini2024.txt):\n  move_{t-i,HH:MM} = |Close_{t-i,HH:MM} / Open_{t-i,09:30} - 1|,  i = 1..14 (previous 14 eligible sessions)\n  sigma_{t,HH:MM}  = (1/14) * sum_i move_{t-i,HH:MM}\n  UB_{t,HH:MM} = max(Open_{t,09:30}, Close_{t-1,16:00}) * (1 + sigma_{t,HH:MM})\n  LB_{t,HH:MM} = min(Open_{t,09:30}, Close_{t-1,16:00}) * (1 - sigma_{t,HH:MM})\n  Trading only at semi-hourly checks HH:00 / HH:30 (first check 10:00 ET, last 15:30 ET), using the last completed 1-min close.\n  LONG when flat and price > UB at a check (short side deliberately not traded).\n  Final-model trailing stop (paper \u00a73): Long TrailingStop = max(UB_{t,HH:MM}, VWAP_{t,HH:MM}); VWAP from market hours only\n  (09:30 ET onward, cumulative, causal). Paper: 'Stop losses can also be triggered only on semi-hourly intervals' -> the stop is\n  evaluated at the semi-hourly checks; exit when price < max(UB, VWAP). Re-entry at a later check is allowed when the entry\n  condition holds again (paper does not forbid it; trade counts in the paper exceed one per day).\n  All positions closed at the market close: 16:00 ET boundary (last completed 1-min bar close, 15:59 bar).\n  Execution: decisions at bar close, fills at the next 1-min bar open + slippage (engine default). Sizing: 1 contract\n  (the paper's vol-targeted share count is a sizing rule, not a signal rule; omitted and documented).\nBars: 1-min bars from front-contract ticks, 09:30-16:00 ET only. Days: all NQ trade dates with a 16:00 ET close; the first\n14 eligible sessions of a phase serve only as sigma warm-up (no trades) \u2014 sigma history does NOT cross phase boundaries.",
+ "parameters": {
+  "lookback_days": 14,
+  "checks": "HH:00/HH:30 10:00-15:30 ET",
+  "stop": "max(UB,VWAP) at checks",
+  "close": "16:00 ET",
+  "side": "long only"
+ },
+ "dataset_split": {
+  "development": {
+   "window": [
+    "2021-01-04",
+    "2023-12-31"
+   ],
+   "locked": false,
+   "label": "development / in-sample"
+  },
+  "validation1": {
+   "window": [
+    "2024-01-01",
+    "2024-12-31"
+   ],
+   "locked": false,
+   "label": "validation-1"
+  },
+  "validation2": {
+   "window": [
+    "2025-01-01",
+    "2026-06-17"
+   ],
+   "locked": false,
+   "label": "validation-2 / recent OOS (previously viewed by other projects; MBP-1 ends 2025-06-30; 2026-06-17 partial session excluded)"
+  },
+  "holdout": {
+   "window": [
+    "2026-06-18",
+    "2026-08-14"
+   ],
+   "locked": true,
+   "label": "TRUE FINAL VIRGIN HOLDOUT \u2014 never observed by any study; LOCKED"
+  }
+ },
+ "hypothesis_id": "H-F",
+ "entry_type": "market",
+ "exit_rules": "",
+ "date_frozen": "2026-09-02T22:42:35+00:00",
+ "code_hash": "e1ec18fb8067a409",
+ "strategy_file_hash": "a8e9a7e4bf6ef2fc",
+ "spec_id": "6e4cd01f6961",
+ "notes": ""
+}

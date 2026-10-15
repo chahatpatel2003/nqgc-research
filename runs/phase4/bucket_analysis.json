@@ -1,0 +1,78 @@
+{
+ "oos": {
+  "names": [
+   "A_noise_long",
+   "D_orb_retrace_family_avg"
+  ],
+  "daily_corr": [
+   [
+    1.0,
+    -0.04311514298259236
+   ],
+   [
+    -0.04311514298259236,
+    1.0
+   ]
+  ],
+  "monthly_corr": [
+   [
+    0.9999999999999999,
+    -0.17573556770824253
+   ],
+   [
+    -0.17573556770824253,
+    1.0
+   ]
+  ],
+  "pairwise_both_lose": {
+   "A_noise_long|D_orb_retrace_family_avg": 0.05573770491803279
+  },
+  "all_lose_share": 0.05573770491803279,
+  "equal_risk_weights": {
+   "A_noise_long": 0.39623298656893974,
+   "D_orb_retrace_family_avg": 0.6037670134310603
+  },
+  "portfolio_max_dd_usd_weighted": 11403.851145577122,
+  "portfolio_sharpe": 1.2492346196633968,
+  "portfolio_total_weighted": 41391.32148195028,
+  "n_days": 610
+ },
+ "all": {
+  "names": [
+   "A_noise_long",
+   "D_orb_retrace_family_avg"
+  ],
+  "daily_corr": [
+   [
+    0.9999999999999998,
+    0.009045692983561877
+   ],
+   [
+    0.009045692983561879,
+    0.9999999999999999
+   ]
+  ],
+  "monthly_corr": [
+   [
+    1.0,
+    -0.2134693136498505
+   ],
+   [
+    -0.21346931364985047,
+    1.0
+   ]
+  ],
+  "pairwise_both_lose": {
+   "A_noise_long|D_orb_retrace_family_avg": 0.06774668630338733
+  },
+  "all_lose_share": 0.06774668630338733,
+  "equal_risk_weights": {
+   "A_noise_long": 0.4215038949943374,
+   "D_orb_retrace_family_avg": 0.5784961050056626
+  },
+  "portfolio_max_dd_usd_weighted": 11519.269449373933,
+  "portfolio_sharpe": 1.474207964268239,
+  "portfolio_total_weighted": 96032.30577880866,
+  "n_days": 1358
+ }
+}

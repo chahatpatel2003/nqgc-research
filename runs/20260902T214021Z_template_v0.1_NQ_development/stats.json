@@ -1,0 +1,191 @@
+{
+ "summary": {
+  "trades": 4,
+  "win_rate": 0.75,
+  "loss_rate": 0.25,
+  "breakeven_rate": 0.0,
+  "avg_r": 0.49221550325810326,
+  "expectancy_usd": 545.2,
+  "expectancy_r": 0.49221550325810326,
+  "gross_pnl": 2200.0,
+  "net_pnl": 2180.8,
+  "fees": 19.2,
+  "slippage_cost": 25.0,
+  "profit_factor": 4.13874496257916,
+  "avg_winner": 958.5333333333334,
+  "avg_loser": -694.8,
+  "largest_winner": 1345.2,
+  "largest_loser": -694.8,
+  "max_drawdown_usd": 694.8,
+  "max_drawdown_r": 1.0143065693430657,
+  "max_drawdown_pct_account": 0.013895999999999999,
+  "sharpe_daily_ann": 9.78581974412127,
+  "sortino_daily_ann": 12.456507899761789,
+  "calmar": 158.19274611398967,
+  "consecutive_wins": 2,
+  "consecutive_losses": 1,
+  "long_trades": 4,
+  "short_trades": 0,
+  "avg_mae_pts": 28.0,
+  "avg_mfe_pts": 44.5625,
+  "median_mae_pts": 33.125,
+  "median_mfe_pts": 45.375,
+  "avg_hold_minutes": 18.5,
+  "median_hold_minutes": 7.5,
+  "exposure": 0.010724637681159421,
+  "trades_per_day": 0.8,
+  "trade_dates_with_trades": 4,
+  "ambiguous_trades": 0,
+  "tick_resolved_trades": 0,
+  "gross_expectancy_usd": 550.0,
+  "n_days": 5
+ },
+ "year": [
+  {
+   "year": 2023,
+   "trades": 4,
+   "win_rate": 0.75,
+   "gross": 2200.0,
+   "net": 2180.8,
+   "expectancy_usd": 545.2,
+   "avg_r": 0.49221550325810337,
+   "fees": 19.2,
+   "ambiguous": 0
+  }
+ ],
+ "quarter": [
+  {
+   "quarter": "2023-Q1",
+   "trades": 4,
+   "win_rate": 0.75,
+   "gross": 2200.0,
+   "net": 2180.8,
+   "expectancy_usd": 545.2,
+   "avg_r": 0.49221550325810337,
+   "fees": 19.2,
+   "ambiguous": 0
+  }
+ ],
+ "month": [
+  {
+   "month": "2023-03",
+   "trades": 4,
+   "win_rate": 0.75,
+   "gross": 2200.0,
+   "net": 2180.8,
+   "expectancy_usd": 545.2,
+   "avg_r": 0.49221550325810337,
+   "fees": 19.2,
+   "ambiguous": 0
+  }
+ ],
+ "session": [
+  {
+   "session": "RTH",
+   "trades": 4,
+   "win_rate": 0.75,
+   "gross": 2200.0,
+   "net": 2180.8,
+   "expectancy_usd": 545.2,
+   "avg_r": 0.49221550325810337,
+   "fees": 19.2,
+   "ambiguous": 0
+  }
+ ],
+ "hour": [
+  {
+   "hour": 9,
+   "trades": 4,
+   "win_rate": 0.75,
+   "gross": 2200.0,
+   "net": 2180.8,
+   "expectancy_usd": 545.2,
+   "avg_r": 0.49221550325810337,
+   "fees": 19.2,
+   "ambiguous": 0
+  }
+ ],
+ "dow": [
+  {
+   "dow": 1,
+   "trades": 1,
+   "win_rate": 1.0,
+   "gross": 1350.0,
+   "net": 1345.2,
+   "expectancy_usd": 1345.2,
+   "avg_r": 0.9964444444444445,
+   "fees": 4.8,
+   "ambiguous": 0
+  },
+  {
+   "dow": 3,
+   "trades": 1,
+   "win_rate": 1.0,
+   "gross": 960.0,
+   "net": 955.2,
+   "expectancy_usd": 955.2,
+   "avg_r": 0.995,
+   "fees": 4.8,
+   "ambiguous": 0
+  },
+  {
+   "dow": 4,
+   "trades": 1,
+   "win_rate": 0.0,
+   "gross": -690.0,
+   "net": -694.8,
+   "expectancy_usd": -694.8,
+   "avg_r": -1.0143065693430657,
+   "fees": 4.8,
+   "ambiguous": 0
+  },
+  {
+   "dow": 5,
+   "trades": 1,
+   "win_rate": 1.0,
+   "gross": 580.0,
+   "net": 575.2,
+   "expectancy_usd": 575.2,
+   "avg_r": 0.9917241379310345,
+   "fees": 4.8,
+   "ambiguous": 0
+  }
+ ],
+ "side": [
+  {
+   "side": 1,
+   "trades": 4,
+   "win_rate": 0.75,
+   "gross": 2200.0,
+   "net": 2180.8,
+   "expectancy_usd": 545.2,
+   "avg_r": 0.49221550325810337,
+   "fees": 19.2,
+   "ambiguous": 0
+  }
+ ],
+ "exit_reason": [
+  {
+   "exit_reason": "stop",
+   "trades": 1,
+   "win_rate": 0.0,
+   "gross": -690.0,
+   "net": -694.8,
+   "expectancy_usd": -694.8,
+   "avg_r": -1.0143065693430657,
+   "fees": 4.8,
+   "ambiguous": 0
+  },
+  {
+   "exit_reason": "target",
+   "trades": 3,
+   "win_rate": 1.0,
+   "gross": 2890.0,
+   "net": 2875.6000000000004,
+   "expectancy_usd": 958.5333333333334,
+   "avg_r": 0.994389527458493,
+   "fees": 14.399999999999999,
+   "ambiguous": 0
+  }
+ ]
+}

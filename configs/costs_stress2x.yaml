@@ -1,0 +1,14 @@
+# COST TIER 4 — 2X STRESS: same fees, 6 ticks slippage per side on market/stop fills (limit fills unslipped).
+# NQ: $4.80 fees + 12 ticks ($60) = $64.80 RT = 3.24 pts.
+per_side:
+  NQ:  {commission: 0.85, exchange_fee: 1.38, clearing_fee: 0.15, nfa_fee: 0.02}
+  MNQ: {commission: 0.35, exchange_fee: 0.35, clearing_fee: 0.02, nfa_fee: 0.02}
+  GC:  {commission: 0.85, exchange_fee: 1.55, clearing_fee: 0.15, nfa_fee: 0.02}
+  MGC: {commission: 0.35, exchange_fee: 0.50, clearing_fee: 0.02, nfa_fee: 0.02}
+slippage_ticks:
+  NQ:  {market: 6, stop: 6, limit: 0}
+  MNQ: {market: 6, stop: 6, limit: 0}
+  GC:  {market: 6, stop: 6, limit: 0}
+  MGC: {market: 6, stop: 6, limit: 0}
+limit_fill_rule: through
+intrabar_ambiguity: worst

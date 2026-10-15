@@ -1,0 +1,9 @@
+# Phase 5 (NQ pre-open directional bias) split layout — pre-registered 2026-09-02 in docs/phase5/RESEARCH_DESIGN.md,
+# approved by the user. Boundaries are CME TRADE DATES. Same guard semantics as splits.yaml: validation needs a frozen
+# spec_id; the locked holdout needs the unlock phrase and is written to runs/HOLDOUT_LEDGER.md.
+generation: 1
+project: nq_bias
+NQ:
+  development: {window: ["2021-01-04", "2023-12-31"], locked: false, label: "development / design (internal quarterly walk-forward)"}
+  validation:  {window: ["2024-01-01", "2025-12-31"], locked: false, label: "walk-forward validation 2024-2025 (8 quarterly folds; frozen recipes only)"}
+  holdout:     {window: ["2026-01-01", "2026-08-14"], locked: true,  label: "FINAL HOLDOUT (2026-01-02..06-17 semi-virgin: seen as strategy P&L in Phases 2-4; 06-18..08-14 virgin) — LOCKED"}

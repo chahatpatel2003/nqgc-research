@@ -1,0 +1,46 @@
+{
+ "strategy_name": "GC_h5_last30_momentum",
+ "version": "1.0-paper",
+ "instrument": "GC",
+ "timeframe_s": 60,
+ "rules": "F \u2014 GC fifth-half-hour -> last-half-hour intraday momentum (Wen et al. 2020 / Gao et al. 2018 construction), and\nG \u2014 GC Crabel Stretch opening-range breakout (08:20-13:30 ET day session). Both on 1-minute bars with the Phase-2 GC conventions:\nentry at the next bar open (+slippage), time exits at the last completed bar close (-slippage), same-minute stop/target -> worst case.\nSee docs/phase4/SPEC_F_GC_INTRADAY_MOMENTUM.md and SPEC_G_GC_CRABEL_ORB.md.",
+ "parameters": {
+  "predictor": "11:30-12:00 ET",
+  "trade": "15:30-16:00 ET",
+  "rule": "sign"
+ },
+ "dataset_split": {
+  "development": {
+   "window": [
+    "2016-01-04",
+    "2023-12-31"
+   ],
+   "locked": false,
+   "label": "development / in-sample"
+  },
+  "validation": {
+   "window": [
+    "2024-01-01",
+    "2024-12-31"
+   ],
+   "locked": false,
+   "label": "validation"
+  },
+  "holdout": {
+   "window": [
+    "2025-01-01",
+    "2025-12-31"
+   ],
+   "locked": true,
+   "label": "NON-VIRGIN / STRATEGY-SPECIFIC HOLDOUT \u2014 researcher viewed this period in unrelated research; LOCKED"
+  }
+ },
+ "hypothesis_id": "H-F4",
+ "entry_type": "market",
+ "exit_rules": "",
+ "date_frozen": "2026-09-03T04:46:18+00:00",
+ "code_hash": "5402865cec22f233",
+ "strategy_file_hash": "e664e9f31d024ee1",
+ "spec_id": "2e3c861cc30c",
+ "notes": ""
+}

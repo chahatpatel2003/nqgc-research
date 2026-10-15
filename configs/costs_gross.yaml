@@ -1,0 +1,13 @@
+# COST TIER 1 — GROSS: zero fees, zero slippage. Fills at the modelled price.
+per_side:
+  NQ:  {commission: 0.0, exchange_fee: 0.0, clearing_fee: 0.0, nfa_fee: 0.0}
+  MNQ: {commission: 0.0, exchange_fee: 0.0, clearing_fee: 0.0, nfa_fee: 0.0}
+  GC:  {commission: 0.0, exchange_fee: 0.0, clearing_fee: 0.0, nfa_fee: 0.0}
+  MGC: {commission: 0.0, exchange_fee: 0.0, clearing_fee: 0.0, nfa_fee: 0.0}
+slippage_ticks:
+  NQ:  {market: 0, stop: 0, limit: 0}
+  MNQ: {market: 0, stop: 0, limit: 0}
+  GC:  {market: 0, stop: 0, limit: 0}
+  MGC: {market: 0, stop: 0, limit: 0}
+limit_fill_rule: through
+intrabar_ambiguity: worst
